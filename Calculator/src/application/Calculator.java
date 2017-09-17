@@ -33,7 +33,7 @@ public class Calculator
 	
 	public static double getResult()
 	{
-		return result;
+		return new Double(result);
 	}
 	
 	public static void reset()
